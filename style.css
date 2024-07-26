@@ -1,0 +1,41 @@
+.btn-grad {
+    background-image: linear-gradient(to right, #DC2424 0%, #4A569D  51%, #DC2424  100%);
+    margin: 0px;
+    padding: 10px 35px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .heading button {
+    float: right;
+    border: 1px solid white;
+    margin-top: -40px;
+  }
+
+  body {
+    font-family: cursive;
+  }
+
+  .bttn {
+    padding: 8px;
+    margin: 10px;
+  }
+
+  .modal-content {
+    background-color: mediumseagreen;
+    color: aquamarine;
+    box-shadow: 5px 5px 5px mediumvioletred;
+    border-radius: 5px;
+  }
+
+  canvas {
+    border-radius: 10px;
+  }
